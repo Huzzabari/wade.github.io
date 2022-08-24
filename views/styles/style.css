@@ -1,0 +1,75 @@
+/* title tag for every page*/
+h1 {
+    color: #f79616;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 44px;
+    -webkit-text-stroke: .5px #17baec;
+    text-align: center;
+    text-decoration: underline overline;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 3px 3px 1px #3b0adc;
+
+}
+
+
+/* paragraph font and white color*/
+p {
+
+    font-family: 'Work Sans', sans-serif;
+    color: #efedec;
+    font-size: 22px;
+    -webkit-text-stroke: .1px #17baec;
+}
+
+/* body is going to be a nice gradient that is flex based centered*/
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1 auto;
+    padding: 0 20px 20px 20px;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #8344b3 0% 15%, #1654ac 50% 55%, #8344b3);
+}
+
+/* anchor tag fonts */
+a {
+    font-size: 20px;
+    color: #f79616;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* index page picture */
+#orange {
+    padding: 20px;
+    width: 60%;
+    max-width: 70vh;
+    max-height: 60vh;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+
+}
+
+/* about page picture */
+#blue {
+    padding: 20px;
+    width: 60%;
+    max-width: 70vh;
+    max-height: 60vh;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+
+}
+
+footer {
+    font-family: 'Work Sans', sans-serif;
+    color: #efedec;
+    font-size: 22px;
+    -webkit-text-stroke: .1px #17baec;
+}
+
+/*link or button to go back to home page*/
+.goback {}
